@@ -12,7 +12,6 @@ struct weatherTestApp: App {
     let persistenceController = PersistenceController.shared
     @State private var locationManager = LocationManager()
     @State private var weatherManager = WeatherManager()
-    @State private var modelData = ViewModelData()
     
     var body: some Scene {
         WindowGroup {
@@ -21,7 +20,6 @@ struct weatherTestApp: App {
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .environmentObject(locationManager)
                 .environmentObject(weatherManager)
-                .environmentObject(modelData)
                 .onAppear {
                     locationManager.requestLocation()
                 }

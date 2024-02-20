@@ -73,7 +73,6 @@
 				B6C129962B8412DE00742C98 /* SavedWeatherView.swift */,
 				B6C129982B841A1600742C98 /* SavedForecastView.swift */,
 				B63B575F2B83E1E800C645D6 /* RequestView.swift */,
-				B6C129842B83F3F700742C98 /* SearchView.swift */,
 				B6C129862B83F9BA00742C98 /* OneDayRowWeather.swift */,
 			);
 			path = Helpers;
@@ -153,6 +152,7 @@
 				B6FFE0672B83DEB6008769E2 /* ContentView.swift */,
 				B63B575B2B83E1A300C645D6 /* MainView.swift */,
 				B63B575D2B83E1C600C645D6 /* ForecastView.swift */,
+				B6C129842B83F3F700742C98 /* SearchView.swift */,
 				B63B575A2B83E19000C645D6 /* Helpers */,
 			);
 			path = Views;
